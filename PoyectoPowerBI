@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Power BI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: auto;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0078D7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #005a9e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Proyecto Power BI</h1>
+        <p>Explora el dashboard interactivo de Power BI incrustado a continuación:</p>
+        
+        <iframe title="Dashboard Power BI" 
+            src="https://app.powerbi.com/view?r=eyJrIjoiOGY3ZGRlNDUtYTA0MC00ZDIwLTkzNDgtYmI3NWRjZjlkZGEyIiwidCI6IjllMTc3ZThkLWUyNzYtNDkyMi1hY2U5LWY2NjYyN2ZiYWVlMCIsImMiOjl9" 
+            allowFullScreen="true">
+        </iframe>
+        
+        <p>Si tienes problemas para ver el dashboard, haz clic en el siguiente enlace:</p>
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiOGY3ZGRlNDUtYTA0MC00ZDIwLTkzNDgtYmI3NWRjZjlkZGEyIiwidCI6IjllMTc3ZThkLWUyNzYtNDkyMi1hY2U5LWY2NjYyN2ZiYWVlMCIsImMiOjl9" target="_blank">📊 Ver en Power BI</a>
+    </div>
+</body>
+</html>
